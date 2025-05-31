@@ -1,0 +1,93 @@
+{
+    "topics": [
+      {
+        "topic": "Introduction to Machine Learning",
+        "description": "Covers fundamental concepts, types of learning (supervised, unsupervised, reinforcement), key challenges, and an overview of the machine learning workflow."
+      },
+      {
+        "topic": "Data Handling and Preprocessing",
+        "description": "Discusses data loading, cleaning, augmentation, feature engineering, and categorical feature handling, crucial for preparing datasets for model training."
+      },
+      {
+        "topic": "Machine Learning Models and Training",
+        "description": "Explores model training, evaluation, hyperparameter tuning, and cross-validation techniques to optimize performance."
+      },
+      {
+        "topic": "Deep Learning Foundations",
+        "description": "Introduces neural networks, activation functions, perceptrons, and multilayer perceptrons as the foundation for deep learning."
+      },
+      {
+        "topic": "Computer Vision with Deep Learning",
+        "description": "Covers convolutional neural networks (CNNs), image classification, object detection, segmentation, and transfer learning."
+      },
+      {
+        "topic": "Time Series Analysis and Sequential Models",
+        "description": "Focuses on recurrent neural networks (RNNs), LSTMs, GRUs, sequence preprocessing, and time series applications."
+      },
+      {
+        "topic": "Natural Language Processing (NLP)",
+        "description": "Discusses text preprocessing, word embeddings, transformers, sequence-to-sequence models, and attention mechanisms."
+      },
+      {
+        "topic": "Generative Models and Creativity",
+        "description": "Includes GANs, VAEs, style transfer, latent space manipulation, and text generation for creative AI applications."
+      },
+      {
+        "topic": "Tabular Data Modeling",
+        "description": "Covers decision trees, random forests, gradient boosting, and model interpretability for structured data."
+      },
+      {
+        "topic": "Reinforcement Learning",
+        "description": "Introduces reinforcement learning principles, reward functions, Q-learning, policy gradients, and applications."
+      },
+      {
+        "topic": "Optimization Techniques",
+        "description": "Covers gradient descent, stochastic gradient descent (SGD), Adam, learning rate scheduling, and loss functions."
+      },
+      {
+        "topic": "Feature Engineering and Dimensionality Reduction",
+        "description": "Discusses feature selection, principal component analysis (PCA), t-SNE, and autoencoders for reducing data complexity."
+      },
+      {
+        "topic": "Anomaly Detection and Unsupervised Learning",
+        "description": "Explores clustering techniques (k-means, DBSCAN), isolation forests, and applications in fraud detection."
+      },
+      {
+        "topic": "Bias, Fairness, and Explainability in AI",
+        "description": "Addresses ethical concerns, fairness metrics, explainable AI (XAI), and model bias mitigation techniques."
+      },
+      {
+        "topic": "Model Deployment and Productionization",
+        "description": "Covers model serialization, serving via APIs, monitoring deployed models, optimizing performance, and edge deployment."
+      },
+      {
+        "topic": "Cloud and Distributed Computing for AI",
+        "description": "Explores cloud platforms, distributed training, parallelization, and scaling machine learning models."
+      },
+      {
+        "topic": "Transfer Learning and Pretrained Models",
+        "description": "Discusses leveraging pretrained models, fine-tuning strategies, and domain adaptation for various ML tasks."
+      },
+      {
+        "topic": "Bayesian Methods and Probabilistic Models",
+        "description": "Covers Bayesian inference, probabilistic graphical models, and applications in uncertainty estimation."
+      },
+      {
+        "topic": "Quantum Machine Learning",
+        "description": "Introduces quantum computing concepts and their intersection with AI, including quantum neural networks."
+      },
+      {
+        "topic": "AI Trends and Future Directions",
+        "description": "Explores emerging technologies, multimodal AI, ethical AI developments, and the impact of AI on society."
+      },
+      {
+        "topic": "Course Formality",
+        "description": "Formalities about the course."
+      },
+      {
+        "topic": "Other",
+        "description": "Conversations not fitting any of the topics, i.e personal conversations etc." 
+      }
+    ]
+  }
+  

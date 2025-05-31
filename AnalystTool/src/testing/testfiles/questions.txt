@@ -1,0 +1,10 @@
+What is a Recurrent Neural Network (RNN), and how does it differ from traditional feedforward neural networks?
+What are the main challenges associated with training RNNs, and how can they be mitigated?
+What is the vanishing gradient problem in RNNs, and how does it affect learning?
+How do Long Short-Term Memory (LSTM) networks improve upon standard RNNs?
+What are Gated Recurrent Units (GRUs), and how do they compare to LSTMs?
+How does backpropagation through time (BPTT) work in RNNs?
+What are some real-world applications of RNNs in natural language processing?
+How do bidirectional RNNs work, and when are they useful?
+What is the difference between an RNN and a Transformer model?
+How does an RNN handle variable-length sequences in input data?

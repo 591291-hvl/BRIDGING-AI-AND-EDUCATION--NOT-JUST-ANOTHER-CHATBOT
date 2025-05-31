@@ -1,0 +1,71 @@
+{
+    "modules": [
+        {
+            "name": "Intro",
+            "topics": {
+                "Introduction to Machine Learning": "Covers fundamental concepts, types of learning (supervised, unsupervised, reinforcement), key challenges, and an overview of the machine learning workflow.",
+                "Course Formality": "Formalities about the course.",
+                "Reinforcement Learning": "Introduces reinforcement learning principles, reward functions, Q-learning, policy gradients, and applications."
+            }
+        },
+        {
+            "name": "Deep Learning and Computer Vision",
+            "topics": {
+                "Deep Learning Foundations": "Introduces neural networks, activation functions, perceptrons, and multilayer perceptrons as the foundation for deep learning.",
+                "Computer Vision with Deep Learning": "Covers convolutional neural networks (CNNs), image classification, object detection, segmentation, and transfer learning."
+            }
+        },
+        {
+            "name": "Data Handling and Training",
+            "topics": {
+                "Data Handling and Preprocessing": "Discusses data loading, cleaning, augmentation, feature engineering, and categorical feature handling, crucial for preparing datasets for model training.",
+                "Machine Learning Models and Training": "Explores model training, evaluation, hyperparameter tuning, and cross-validation techniques to optimize performance.",
+                "Optimization Techniques": "Covers gradient descent, stochastic gradient descent (SGD), Adam, learning rate scheduling, and loss functions.",
+                "Feature Engineering and Dimensionality Reduction": "Discusses feature selection, principal component analysis (PCA), t-SNE, and autoencoders for reducing data complexity.",
+                "Anomaly Detection and Unsupervised Learning": "Explores clustering techniques (k-means, DBSCAN), isolation forests, and applications in fraud detection.",
+                "Transfer Learning and Pretrained Models": "Discusses leveraging pretrained models, fine-tuning strategies, and domain adaptation for various ML tasks."
+            }
+        },
+        {
+            "name": "Time Series and Recurrence",
+            "topics": {
+                "Time Series Analysis and Sequential Models": "Focuses on recurrent neural networks (RNNs), LSTMs, GRUs, sequence preprocessing, and time series applications."
+            }
+        },
+        {
+            "name": "Tabular Data",
+            "topics": {
+                "Tabular Data Modeling": "Covers decision trees, random forests, gradient boosting, and model interpretability for structured data."
+            }
+        },
+        {
+            "name": "Natural Language Processing (NLP)",
+            "topics": {
+                "Natural Language Processing (NLP)": "Discusses text preprocessing, word embeddings, transformers, sequence-to-sequence models, and attention mechanisms."
+            }
+        },
+        {
+            "name": "Deployment",
+            "topics": {
+                "Model Deployment and Productionization": "Covers model serialization, serving via APIs, monitoring deployed models, optimizing performance, and edge deployment.",
+                "Cloud and Distributed Computing for AI": "Explores cloud platforms, distributed training, parallelization, and scaling machine learning models."
+            }
+        },
+        {
+            "name": "Generative Models",
+            "topics": {
+                "Generative Models and Creativity": "Includes GANs, VAEs, style transfer, latent space manipulation, and text generation for creative AI applications."
+            }
+        },
+        {
+            "name": "Other",
+            "topics": {
+                "Bayesian Methods and Probabilistic Models": "Covers Bayesian inference, probabilistic graphical models, and applications in uncertainty estimation.",
+                "Quantum Machine Learning": "Introduces quantum computing concepts and their intersection with AI, including quantum neural networks.",
+                "Bias, Fairness, and Explainability in AI": "Addresses ethical concerns, fairness metrics, explainable AI (XAI), and model bias mitigation techniques.",
+                "AI Trends and Future Directions": "Explores emerging technologies, multimodal AI, ethical AI developments, and the impact of AI on society.",
+                "Other": "Conversations not fitting any of the topics, i.e personal conversations etc."
+            }
+        }
+    ]
+}

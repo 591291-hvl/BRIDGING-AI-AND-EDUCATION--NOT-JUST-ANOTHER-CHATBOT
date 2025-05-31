@@ -1,0 +1,297 @@
+{
+  "_id": {
+    "$oid": "679b549d3676903c9f83add6"
+  },
+  "Week": 5,
+  "LastUpdated": "2025-02-05 15:44:49.799599",
+  "data": {
+    "Engagement": {
+      "Total Questions This Week": 124,
+      "Total Conversation This Week": 26,
+      "Active Users This Week": 14,
+      "New Users This Week": 17
+    },
+    "Coding Non/Coding Ratio": {
+      "Total Coding Questions This Week": 1,
+      "Total NonCoding Questions This_Week": 59
+    },
+    "Module Breakdown": [
+      [
+        "Intro",
+        7
+      ],
+      [
+        "Deep Learning and Computer Vision",
+        26
+      ],
+      [
+        "Data Handling and Training",
+        21
+      ],
+      [
+        "Time Series and Recurrence",
+        0
+      ],
+      [
+        "Tabular Data",
+        0
+      ],
+      [
+        "Natural Language Processing (NLP)",
+        1
+      ],
+      [
+        "Deployment",
+        0
+      ],
+      [
+        "Generative Models",
+        0
+      ],
+      [
+        "Other",
+        2
+      ]
+    ],
+    "Area Of Use": {
+      "Area Of Use": {
+        "Course Related": {
+          "Quizzing": 0,
+          "Course Topics Questions": 43,
+          "Project Work": 5,
+          "Course Formality Questions": 3,
+          "Coding Questions": 1
+        },
+        "Other": {
+          "Other": 4
+        }
+      }
+    },
+    "Topics": [
+      [
+        "Introduction to Machine Learning",
+        0
+      ],
+      [
+        "Data Handling and Preprocessing",
+        3
+      ],
+      [
+        "Machine Learning Models and Training",
+        19
+      ],
+      [
+        "Deep Learning Foundations",
+        23
+      ],
+      [
+        "Computer Vision with Deep Learning",
+        12
+      ],
+      [
+        "Time Series Analysis and Sequential Models",
+        0
+      ],
+      [
+        "Natural Language Processing (NLP)",
+        1
+      ],
+      [
+        "Generative Models and Creativity",
+        1
+      ],
+      [
+        "Tabular Data Modeling",
+        0
+      ],
+      [
+        "Reinforcement Learning",
+        0
+      ],
+      [
+        "Optimization Techniques",
+        24
+      ],
+      [
+        "Feature Engineering and Dimensionality Reduction",
+        0
+      ],
+      [
+        "Anomaly Detection and Unsupervised Learning",
+        0
+      ],
+      [
+        "Bias, Fairness, and Explainability in AI",
+        0
+      ],
+      [
+        "Model Deployment and Productionization",
+        0
+      ],
+      [
+        "Cloud and Distributed Computing for AI",
+        3
+      ],
+      [
+        "Transfer Learning and Pretrained Models",
+        0
+      ],
+      [
+        "Bayesian Methods and Probabilistic Models",
+        0
+      ],
+      [
+        "Quantum Machine Learning",
+        0
+      ],
+      [
+        "AI Trends and Future Directions",
+        0
+      ],
+      [
+        "Course Formality",
+        5
+      ],
+      [
+        "Other",
+        21
+      ]
+    ],
+    "Aggregated Questions": [],
+    "Messages Day HeatMap": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        18
+      ],
+      [
+        10,
+        31
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        4
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        18,
+        5
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        22,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "Messages Week HeatMap": [
+      [
+        "Monday",
+        35,
+        "00-Monday"
+      ],
+      [
+        "Tuesday",
+        12,
+        "01-Tuesday"
+      ],
+      [
+        "Wednesday",
+        2,
+        "02-Wednesday"
+      ],
+      [
+        "Thursday",
+        35,
+        "03-Thursday"
+      ],
+      [
+        "Friday",
+        2,
+        "04-Friday"
+      ],
+      [
+        "Saturday",
+        3,
+        "05-Saturday"
+      ],
+      [
+        "Sunday",
+        23,
+        "06-Sunday"
+      ]
+    ]
+  }
+}

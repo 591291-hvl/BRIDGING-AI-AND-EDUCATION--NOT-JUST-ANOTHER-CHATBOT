@@ -1,0 +1,303 @@
+{
+  "_id": {
+    "$oid": "67a1de5de4737f26792169ee"
+  },
+  "Week": 6,
+  "LastUpdated": "2025-02-09 17:42:00.812804",
+  "data": {
+    "Engagement": {
+      "Total Questions This Week": 123,
+      "Total Conversation This Week": 21,
+      "Active Users This Week": 14,
+      "New Users This Week": 5
+    },
+    "Coding Non/Coding Ratio": {
+      "Total Coding Questions This Week": 33,
+      "Total NonCoding Questions This_Week": 44
+    },
+    "Module Breakdown": [
+      [
+        "Intro",
+        1
+      ],
+      [
+        "Deep Learning and Computer Vision",
+        21
+      ],
+      [
+        "Data Handling and Training",
+        9
+      ],
+      [
+        "Time Series and Recurrence",
+        0
+      ],
+      [
+        "Tabular Data",
+        1
+      ],
+      [
+        "Natural Language Processing (NLP)",
+        1
+      ],
+      [
+        "Deployment",
+        0
+      ],
+      [
+        "Generative Models",
+        2
+      ],
+      [
+        "Other",
+        6
+      ]
+    ],
+    "Area Of Use": {
+      "Area Of Use": {
+        "Course Related": {
+          "Quizzing": 0,
+          "Course Topics Questions": 29,
+          "Project Work": 1,
+          "Course Formality Questions": 3,
+          "Coding Questions": 33
+        },
+        "Other": {
+          "Other": 11
+        }
+      }
+    },
+    "Topics": [
+      [
+        "Introduction to Machine Learning",
+        0
+      ],
+      [
+        "Data Handling and Preprocessing",
+        10
+      ],
+      [
+        "Machine Learning Models and Training",
+        13
+      ],
+      [
+        "Deep Learning Foundations",
+        37
+      ],
+      [
+        "Computer Vision with Deep Learning",
+        5
+      ],
+      [
+        "Time Series Analysis and Sequential Models",
+        0
+      ],
+      [
+        "Natural Language Processing (NLP)",
+        2
+      ],
+      [
+        "Generative Models and Creativity",
+        1
+      ],
+      [
+        "Tabular Data Modeling",
+        0
+      ],
+      [
+        "Reinforcement Learning",
+        0
+      ],
+      [
+        "Optimization Techniques",
+        10
+      ],
+      [
+        "Feature Engineering and Dimensionality Reduction",
+        0
+      ],
+      [
+        "Anomaly Detection and Unsupervised Learning",
+        13
+      ],
+      [
+        "Bias, Fairness, and Explainability in AI",
+        1
+      ],
+      [
+        "Model Deployment and Productionization",
+        0
+      ],
+      [
+        "Cloud and Distributed Computing for AI",
+        0
+      ],
+      [
+        "Transfer Learning and Pretrained Models",
+        0
+      ],
+      [
+        "Bayesian Methods and Probabilistic Models",
+        1
+      ],
+      [
+        "Quantum Machine Learning",
+        0
+      ],
+      [
+        "AI Trends and Future Directions",
+        0
+      ],
+      [
+        "Course Formality",
+        1
+      ],
+      [
+        "Other",
+        60
+      ]
+    ],
+    "Aggregated Questions": [
+      "What are the key concepts and steps involved in constructing and understanding convolutional neural networks (CNNs) using Keras, including layers like Conv2D, SeparableConv2D, MaxPooling2D, Batch Normalization, and dense layers?",
+      "How do various data manipulation techniques, such as slicing notation, data augmentation with Keras, and preprocessing functions, work and how can they be applied when working with datasets in TensorFlow?",
+      "What are the main steps in training a deep learning model with Keras, and how do you troubleshoot common errors during the process?",
+      "Can you help me with understanding and implementing computer graphics concepts, equations, and algorithms, including generating wireframes, calculating transverse momentum, and uploading and processing data files such as CSV?",
+      "How can I detect and filter out anomalies from my dataset and what methods can be used for this purpose in machine learning?"
+    ],
+    "Messages Day HeatMap": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        15,
+        21
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        17,
+        12
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        19,
+        3
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        21,
+        44
+      ],
+      [
+        22,
+        2
+      ],
+      [
+        23,
+        1
+      ]
+    ],
+    "Messages Week HeatMap": [
+      [
+        "Monday",
+        24,
+        "00-Monday"
+      ],
+      [
+        "Tuesday",
+        24,
+        "01-Tuesday"
+      ],
+      [
+        "Wednesday",
+        72,
+        "02-Wednesday"
+      ],
+      [
+        "Thursday",
+        21,
+        "03-Thursday"
+      ],
+      [
+        "Friday",
+        0,
+        "04-Friday"
+      ],
+      [
+        "Saturday",
+        7,
+        "05-Saturday"
+      ],
+      [
+        "Sunday",
+        6,
+        "06-Sunday"
+      ]
+    ]
+  }
+}

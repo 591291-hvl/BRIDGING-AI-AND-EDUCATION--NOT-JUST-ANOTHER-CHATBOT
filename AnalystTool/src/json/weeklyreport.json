@@ -1,0 +1,33 @@
+{
+    "Week": null,
+    "LastUpdated": null,
+    "data": {
+        "Engagement": {
+            "Total Questions This Week": 0,
+            "Total Conversation This Week": 0,
+            "Active Users This Week": 0,
+            "New Users This Week": 0
+        },
+        "Coding Non/Coding Ratio": {
+            "Total Coding Questions This Week": 0,
+            "Total NonCoding Questions This_Week": 0
+        },
+        "Module Breakdown": [],
+        "Area Of Use": {
+            "Course Related": {
+                "Quizzing": 0,
+                "Course Topics Questions": 0,
+                "Project Work": 0,
+                "Course Formality Questions": 0,
+                "Coding Questions": 0
+            },
+            "Other": {
+                "Other": 0
+            }
+        },
+        "Topics": [],
+        "Aggregated Questions": [],
+        "Messages Day HeatMap": [],
+        "Messages Week HeatMap": []
+    }
+}

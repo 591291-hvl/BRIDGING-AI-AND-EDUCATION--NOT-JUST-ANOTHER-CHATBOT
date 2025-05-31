@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAT255 Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <img src="logo-text-no.svg" alt="hvl logo" class="top-logo">
+        <h1 class="dashboard-title">DAT255 Dashboard</h1>
+    </div>
+
+    <h2 class="dashboard-title"> Changes Since Last Week</h2>
+    <p id="changes">Loading...</p>
+    
+
+    
+
+    
+    <script>
+        async function fetchData(url, elementId, key) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                document.getElementById(elementId).innerHTML = data[key];
+            } catch (error) {
+                console.error(`Error fetching data from ${url}:`, error);
+            }
+        }
+
+        window.onload = function() {
+            fetchData("https://analyticstool-add8avahcyeqb8ch.northeurope-01.azurewebsites.net/weeklychange", "changes", "Change");
+            fetchData("https://analyticstool-add8avahcyeqb8ch.northeurope-01.azurewebsites.net/summary", "weeklyReport", "Summary");
+            fetchData("https://analyticstool-add8avahcyeqb8ch.northeurope-01.azurewebsites.net/questions", "questions", "Questions");
+        };
+    </script>
+
+    <!-- Weekly Report iFrame -->
+    <div id="chartSummaryFlex">
+        <div class="iframe-container">
+            <iframe style="background: #F1F5F4;width: 70vw;height: 100vh;"  src="https://charts.mongodb.com/charts-teachertool-gtytqbg/embed/dashboards?id=1ad7b26a-2643-4dd1-83a8-6b1d2a9b281c&theme=light&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=true&scalingWidth=scale&scalingHeight=scale"></iframe>
+        </div>
+        <div class="summaryDiv" >
+            <h3>Weekly Report Summary:</h3>
+            <div id="weeklyReport">Loading...</div>
+        </div>
+    </div>
+
+    <h2 class="dashboard-title" style="margin: 5px">This Week's Top Aggregated Questions:</h2>
+    <p id="questions">Loading...</p>
+
+    <div class="seperator">
+        <img src="logo.svg" alt="hvl logo" class="seperator-logo">
+    </div>
+    
+    <div class="iframeContainer">
+        <iframe style="background: #F1F5F4;width: 100vw;height: 100vh;"  src="https://charts.mongodb.com/charts-teachertool-gtytqbg/embed/dashboards?id=aaeebca3-7110-4df8-bca4-0ca73ffc124b&theme=light&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=true&scalingWidth=scale&scalingHeight=scale"></iframe>
+    </div>
+
+    <div class="disclaimer">
+        <h3 class="disclaimer-title">Disclaimer</h3>
+        <p class="disclaimer-text">The analysis provided here has been generated using Azure OpenAI's GPT-4o model. While the model has been thoroughly tested and can offer valuable insights, it is important to note that as a generative AI system, there may still be errors, inaccuracies, or incomplete information. Users are advised to treat the results as a tool for guidance rather than an infallible source of truth. For critical decisions or scenarios requiring precise accuracy, additional verification from reliable sources is recommended.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+### Task:
+You will be given a list of related questions on a specific topic. Your goal is to generate a single, well-phrased question that captures the core theme and intent of the original questions.
+
+### Guidelines:
+
+    - Identify common patterns: Look for recurring words, themes, and intent.
+    - Generalize effectively: Retain relevant information while avoiding unnecessary specificity.
+    - Omit hyper-specific details: Ignore overly detailed aspects unless they represent a major trend.
+    - Ensure clarity and conciseness: The final question should be natural, grammatically sound, and easy to understand.
+    - Response format: Your output should consist only of the aggregated question, with no additional text.
+
+### Example
+Input:
+
+    - What is SGD?
+    - Why use SGD?
+    - When should I use SGD?
+    - How do I implement SGD?
+    - Is SGD better than GD?
+    - How do I implement SGD with NumPy?
+
+Output:
+
+"What is SGD and when should it be used?"

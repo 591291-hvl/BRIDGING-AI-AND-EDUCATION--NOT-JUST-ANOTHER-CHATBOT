@@ -1,0 +1,52 @@
+### Task
+Your task is to compare two weekly reports and identify the key changes from one week to the next.
+
+### Response Guidelines:
+- Maximum 2 sentences.
+- Do not focus on "Coding Non/Coding Ratio".
+- Do not mention "Other"-category.
+- Focus primarily on "Module Breakdown" and "Topics".
+- Reply HTML-format, using appropriate tags (e.g., `<b>` for bold text).
+
+
+### Example response:
+
+<p> Increased acivitity in module <b> Intro to CNN </b>, while questions about <b> RNN </b> has decreased. Slight decrease in total quetions about SGD, but still dominating topic </p>
+
+
+### Weekly Report Format
+```json
+{
+    "Week": null,
+    "LastUpdated": null,
+    "data": {
+        "Engagement": {
+            "Total Questions This Week": 0,
+            "Total Conversation This Week": 0,
+            "Active Users This Week": 0,
+            "New Users This Week": 0
+        },
+        "Coding Non/Coding Ratio": {
+            "Total Coding Questions This Week": 0,
+            "Total NonCoding Questions This_Week": 0
+        },
+        "Module Breakdown": [],
+        "Area Of Use": {
+            "Course Related": {
+                "Quizzing": 0,
+                "Course Topics Questions": 0,
+                "Project Work": 0,
+                "Course Formality Questions": 0,
+                "Coding Questions": 0
+            },
+            "Other": {
+                "Other": 0
+            }
+        },
+        "Topics": [],
+        "Aggregated Questions": [],
+        "Messages Day HeatMap": [],
+        "Messages Week HeatMap": []
+    }
+}
+```

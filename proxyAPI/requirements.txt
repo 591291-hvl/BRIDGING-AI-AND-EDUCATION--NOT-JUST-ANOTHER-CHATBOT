@@ -1,0 +1,10 @@
+fastapi
+pymongo
+langchain
+langchain-mongodb
+langchain-openai
+langchain-community
+python-dotenv
+httpx
+pydantic
+uvicorn
